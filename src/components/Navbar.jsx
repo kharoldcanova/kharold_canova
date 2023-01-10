@@ -1,9 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import iconLinkedin from "../assets/img/icon-linkedin.svg";
-import iconNotion from "../assets/img/icon-notion.svg";
-import iconGitHub from "../assets/img/icon-github.svg";
+import iconLinkedin from "../assets/img/nav-icon1.svg";
+import iconFacebook from "../assets/img/nav-icon2.svg";
+import iconInstagram from "../assets/img/nav-icon3.svg";
 
 export const Navigationbar = () => {
   return (
@@ -33,10 +33,10 @@ export const Navigationbar = () => {
               <img src={iconLinkedin} alt="" />
             </a>
             <a href="">
-              <img src={iconNotion} alt="" />
+              <img src={iconFacebook} alt="" />
             </a>
             <a href="">
-              <img src={iconGitHub} alt="" />
+              <img src={iconInstagram} alt="" />
             </a>
           </div>
           <button className="vvd" onClick={() => console.log("connected")}>
