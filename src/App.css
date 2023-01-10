@@ -304,7 +304,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .information .tagline {
   font-weight: 400;
   align-items: center;
-  font-size: 42px;
+  font-size: 32px;
   margin-bottom: 25px;
   margin-left: 30px;
   display: inline-block;
@@ -338,10 +338,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  border: 1px solid black;
+  
 }
-.skill h2 {
+.skill h3 {
 	font-size: 45px;
 	font-weight: 700;
+  color: black;
+}
+
+.skill h5 {
+	font-size: 22px;
+	font-weight: 700;
+  color: black;
 }
 .skill p {
     color: black;
@@ -359,10 +368,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+
+/* .skill-slider .item img:hover {
+  width: 60%;
+} */
+
 .background-image-left {
   top: 28%;
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 50%;
   z-index: -4;
 }

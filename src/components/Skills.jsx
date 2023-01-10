@@ -1,10 +1,12 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
-import iconhtml from "../assets/img/icon-html.svg";
+import iconHTML from "../assets/img/icon-html.svg";
 import iconDart from "../assets/img/icon8-dart.svg";
 import iconPython from "../assets/img/icon-python.svg";
-
+import iconCSS from "../assets/img//icon-css.svg";
+import iconJavascript from "../assets/img//icon-javascript.svg";
+import iconFlutter from "../assets/img/icon-flutter.svg";
 
 export const Skills =  ()=>{
     const responsive = {
@@ -32,24 +34,33 @@ export const Skills =  ()=>{
             <Row>
                 <Col>
                 <div className="skill-bx">
-                    <h2>
-                        Skills
-                    </h2>
+                    <h3>
+                       Lenguajes de programacion
+                    </h3>
+                    <br />
                     <p>
-                        Habilidades basicas en programacion de lenguajes como...
+                        Conocimientos basicos en lenguajes como:
                     </p>
-                    <Carousel responsive={responsive} infinite={true} className="skills-slider">
+                    <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
-                            <img src={iconhtml} alt="Image" />
-                            <h5>Desarrollador Web</h5>
-                        </div>
-                        <div className="item">
-                            <img src={iconDart} alt="Image" />
+                            <img src={iconHTML} alt="Image" />
                             <h5>Desarrollador Web</h5>
                         </div>
                         <div className="item">
                             <img src={iconPython} alt="Image" />
-                            <h5>Desarrollador Web</h5>
+                            <h5>Desarrollador Python</h5>
+                        </div>
+                        <div className="item">
+                            <img src={iconCSS} alt="Image" />
+                            <h5>Hojas de estilo</h5>
+                        </div>
+                        <div className="item">
+                            <img src={iconJavascript} alt="Image" />
+                            <h5>Manipular el DOM</h5>
+                        </div>
+                        <div className="item">
+                            <img src={iconFlutter} alt="Image" />
+                            <h5>Desarrollo movil</h5>
                         </div>
                     </Carousel>
                 </div>
