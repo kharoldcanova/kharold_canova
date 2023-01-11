@@ -35,7 +35,7 @@ export const Skills =  ()=>{
                 <Col>
                 <div className="skill-bx">
                     <h3>
-                       Lenguajes de programacion
+                       Habilidades de programacion
                     </h3>
                     <br />
                     <p>
