@@ -457,8 +457,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: white;
   border-radius: 64px;
   text-align: center;
-  padding:200px 50px;
-  margin-top: -80px;
+  padding:150px 50px;
+  margin-top: 80px;
   border: 1px solid black;
   color: black;
 }
@@ -467,10 +467,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 42px;
 	font-weight: 700;
   color: black;
+
 }
 
+.aboutme p{
+  margin-bottom: 15px;
+}
 
-.aboutme p {
+.title-card {
+  padding-top: 15px;
+	font-weight: 700;
+  color: black;
+}
+
+.text-card {
     color: black;
     font-size: 18px;
     letter-spacing: 0.8px;
@@ -479,13 +489,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .hobbie-slider{
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   position: relative;
 }
 
-.hobbie-img{
-  margin: 0 auto 30px auto;
+.item{
+  display: grid;
+  margin-left: 10px;
+}
+
+.item :before:hover{
+  background-color: antiquewhite;
+}
+
+.img-card{
+  margin: 30px 20px 10px 20px;
 }
 
 /***Footer**/
