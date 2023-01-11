@@ -447,6 +447,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
 }
 
+/*****About me*****/
+.hobbie{
+  padding: 0 0 150px 0;
+  position: relative;
+}
+
+.hobbie-bx{
+  background: white;
+  border-radius: 64px;
+  text-align: center;
+  padding:200px 50px;
+  margin-top: -80px;
+  border: 1px solid black;
+  color: black;
+}
+
+.aboutme h3 {
+	font-size: 42px;
+	font-weight: 700;
+  color: black;
+}
+
+
+.aboutme p {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.hobbie-slider{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hobbie-img{
+  margin: 0 auto 30px auto;
+}
+
 /***Footer**/
 .footer{
   background-color: var(--background-color);
