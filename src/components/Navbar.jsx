@@ -29,10 +29,10 @@ export const Navigationbar = () => {
           </Nav>
           <span className="navbar-text">
           <div className="social-icon">
-            <a href="">
+            <a href="https://www.linkedin.com/in/kharoldcanova/">
               <img src={iconLinkedin} alt="" />
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/kharold.canova.7">
               <img src={iconFacebook} alt="" />
             </a>
             <a href="">

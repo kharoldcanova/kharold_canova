@@ -1,7 +1,10 @@
 import { Col, Row, Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
-import headerImg from "../assets/img/header-img.svg";
 import { HobbiesCard } from "./HobbiesCard";
+import iconMusic from "../assets/img/icons-headphones.png";
+import iconMovie from "../assets/img/icons-movie.png";
+import iconWrite from "../assets/img/icons-write.png";
+import iconIA from "../assets/img/icons-mental.png";
 
 export const Aboutme = () => {
 
@@ -28,25 +31,25 @@ export const Aboutme = () => {
   //Hobbies
   const hobbies = [
     {
-        imgURL: headerImg,
+        imgURL: iconMusic,
         title: "Escuchar musica",
         description: "Escucho generos variados prefieriendo el rock ademas del lofi",
         textButton: "Ver Spotify"
     },
     {
-        imgURL: headerImg,
+        imgURL: iconMovie,
         title: "Peliculas de ciencia ficcion",
         description: "Peliculas de viajes en el tiempo o con trasfondo psicologico, tambien me encanta la comedia.",
         textButton: "Ver Peliculas"
     },
     {
-        imgURL: headerImg,
+        imgURL: iconIA,
         title: "Inteligencia artificial",
         description: "Interes en los ultimos avances de las tecnologias",
         textButton: "Ver Noticias"
     },
     {
-        imgURL: headerImg,
+        imgURL: iconWrite,
         title: "Escribir relatos",
         description: "Escribir algo de poesia o pensamientos cortos para despejar la mente.",
         textButton: "Ver Relatos"

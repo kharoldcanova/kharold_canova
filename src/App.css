@@ -547,7 +547,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .img-card{
-  margin: 30px 20px 10px 20px;
+  width: 50%;
+  margin-left: 45px;
+  margin-top: 25px;
+  margin-bottom: 25px; 
 }
 
 /***Footer**/

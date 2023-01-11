@@ -1,5 +1,5 @@
 import { Container, Row , Col} from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/image-astronaut.svg";
 
 export const Information = () => {
   return (
