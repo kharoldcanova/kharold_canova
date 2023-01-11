@@ -12,7 +12,7 @@ export const Footer = () => {
             <img src="" alt="" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
+            <div className="social-icon align-items-center">
               <a href="#">
                 <img src={navIcon1} alt="Icon" />
               </a>

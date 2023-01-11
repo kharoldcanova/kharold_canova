@@ -16,7 +16,7 @@ export const Banner = () => {
               aprendiendo conociendo mas del mundo laboral
             </p>
             <span>Puedes conocer mas de mi trabajo en mi repositorio: </span>
-            <button>GitHub</button>
+            <button><span>Repositorio de GitHub</span></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
                 <img src={headerImg} alt="Header img" />
