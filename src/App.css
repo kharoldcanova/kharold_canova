@@ -447,3 +447,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
 }
 
+/***Footer**/
+.footer{
+  background-color: var(--background-color);
+  position: relative;
+  align-items: center;
+  
+}
+
+.footer img {
+  width: 26%;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}

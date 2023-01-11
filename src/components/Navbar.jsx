@@ -21,7 +21,7 @@ export const Navigationbar = () => {
               Home
             </Nav.Link>
             <Nav.Link className="navbar-link" href="#projects">
-              Projectos
+              Proyectos
             </Nav.Link>
             <Nav.Link className="navbar-link" href="#aboutme">
               Sobre mi
