@@ -3,39 +3,48 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 
 export const Projects = ()=>{
 
     const projects = [
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Lista de Tareas",
+          description: "Desarrollo con React",
           imgUrl: projImg1,
+          link: ""
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Portafolio responsivo",
+          description: "Desarrollo con Flutter",
           imgUrl: projImg2,
+          link: ""
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "API",
+          description: "Manipulacion del DOM con JavaScript",
           imgUrl: projImg3,
+          link: ""
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
+          title: "Asistente de Voz",
+          description: "Desarrollo con Python",
+          imgUrl: projImg4,
+          link: ""
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
+          title: "Edicion de imagenes",
+          description: "Desarrollo con Python",
+          imgUrl: projImg5,
+          link: ""
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
+          title: "Traductor basico",
+          description: "Desarrollo con Python",
+          imgUrl: projImg6,
+          link: ""
         },
       ];
     
@@ -52,7 +61,7 @@ export const Projects = ()=>{
                                     projects.map(
                                         (project, index)=>{
                                             return (
-                                                <ProjectCard title={project.title} description={project.description} imgURL={project.imgUrl} key={index}/>
+                                                <ProjectCard title={project.title} description={project.description} imgURL={project.imgUrl} link={project.link} key={index}/>
                                             )
                                         }
                                     )
