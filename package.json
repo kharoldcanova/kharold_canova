@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kharoldcanova.github.io/kharold_canova",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
